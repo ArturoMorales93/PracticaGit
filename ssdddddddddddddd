@@ -1,0 +1,85 @@
+[33mcommit 64e8ce41b7ce0efd92f27d70f43abfde814c12f4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 22:03:29 2020 -0600
+
+    Se agrega la carpeta nbproject al .gitignore
+
+[33mcommit c21d0917aae85923f54cc8818fbace2444eb1ede[m
+Merge: 1d922c4 c4e4c00
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 21:29:00 2020 -0600
+
+    Se inicia merge a rama arturo
+
+[33mcommit 1d922c4d983170a1e8b1f2e3ae08878843bb7ccf[m
+Merge: 416a996 e369ac2
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 21:25:50 2020 -0600
+
+    Se continua haciendo el merge
+
+[33mcommit 416a99650edbf2240313e3631274a8188bf517e8[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 21:23:29 2020 -0600
+
+    Se hace merge a la rama daniel
+
+[33mcommit e369ac27b3c3fd512b9bd56ba7d61526bc505a9a[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 21:09:47 2020 -0600
+
+    Se agrega un gitignore
+
+[33mcommit 97a80d06ec97107eff692fb7bfa530202605dda6[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Fri Apr 10 21:02:56 2020 -0600
+
+    Se actualiza por archivo nbproject/private/private.xml
+
+[33mcommit c4e4c00ed4d345cbb7b29f16a4edf8b17b1b060c[m[33m ([m[1;31morigin/arturo[m[33m)[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Thu Apr 9 12:06:55 2020 -0600
+
+    Se crea una excepcion para operacion de resta y division y un main para probarlo
+
+[33mcommit 036354f725245878e81f52bc50ec9aba8a49587f[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Thu Apr 9 11:20:40 2020 -0600
+
+    Se actualiza proyecto con la rama daniel
+
+[33mcommit 4f411cfa4dff27234c29a5eded985effdeed5bfd[m
+Author: Daniel_san <jo.sed98@hotmail.com>
+Date:   Thu Apr 9 00:25:37 2020 -0600
+
+    clases creadas e interfas tambien
+
+[33mcommit 3a0bd6ddc43136b7fbd486ac72ea2712b29198e4[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Wed Apr 8 18:55:35 2020 -0600
+
+    Se generó un clena and build
+
+[33mcommit 3024e5671cb1ad9bfc4618e1de33d5831d42961c[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Wed Apr 8 11:13:11 2020 -0600
+
+    Archivo nbproject/private/private.xml ???
+
+[33mcommit 666cc1710968ab7d2d7ee6a8cf907cdf0db86cb6[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Wed Apr 8 11:05:34 2020 -0600
+
+    Se crea la clase calculadora
+
+[33mcommit 6a91cc7c86a8ed9b175d6b10dd7b222309dd3881[m
+Author: Arthur <jawallace.casta@gmail.com>
+Date:   Wed Apr 8 10:40:05 2020 -0600
+
+    Creacion del proyecto
+
+[33mcommit 6c990f7fee6651c4b7cfcce37b9b355db00e2ec3[m
+Author: ArturoMorales93 <62071280+ArturoMorales93@users.noreply.github.com>
+Date:   Wed Apr 8 09:50:13 2020 -0600
+
+    Initial commit
