@@ -10,6 +10,7 @@ import java.awt.event.ActionListener;
 import javax.swing.JOptionPane;
 import logica.Calculadora;
 import logica.FrmCalcu;
+import logica.NumMenorException;
 
 /**
  *
@@ -59,6 +60,8 @@ public class calcuController implements ActionListener {
             }
         } catch (NumberFormatException a) {
             JOptionPane.showMessageDialog(winCalcu, "Se ingreso una letra en campo de numero\nRevise");
+        } catch (NumMenorException ex){
+            JOptionPane.showMessageDialog(winCalcu, ex.getMessage());
         }
     }
 

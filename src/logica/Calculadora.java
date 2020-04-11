@@ -47,21 +47,28 @@ public class Calculadora {
          * @return el valor realizado con los 2 
          * 
          */
-    public float operacion(int opcion) {
-
-     
+    public float operacion(int opcion) throws NumMenorException {
+        
         switch (opcion) {
             case 1: //Suma
                 return num1 + num2;
 
             case 2: //Resta
-                return num1 - num2;
+                if (num1 < num2) {
+                    throw new NumMenorException();
+                } else {
+                    return num1 - num2;
+                }
 
             case 3: //Multiplicacion
                 return num1 * num2;
 
             case 4: //Division
-                return num1 / num2;
+                if (num1 < num2) {
+                    throw new NumMenorException();
+                } else {
+                    return num1 / num2;
+                }
 
             default:
                 return 0;
