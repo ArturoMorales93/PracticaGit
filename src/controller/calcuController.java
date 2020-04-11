@@ -41,6 +41,7 @@ public class calcuController implements ActionListener {
                     calcu.setNum2(Integer.parseInt(winCalcu.txtNumero2.getText()));
                     winCalcu.txtResultado.setText(String.valueOf(calcu.operacion(1)));
                     winCalcu.lblSigno.setIcon(new ImageIcon("src/signos/sumar.png"));
+                    JOptionPane.showMessageDialog(winCalcu, "arturo vidal");
 
                 } else {
                     if (e.getSource() == winCalcu.btnCalcular && winCalcu.cmbResta.isSelected()) {
