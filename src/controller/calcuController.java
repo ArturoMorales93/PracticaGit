@@ -7,6 +7,7 @@ package controller;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import logica.Calculadora;
 import logica.FrmCalcu;
@@ -39,17 +40,26 @@ public class calcuController implements ActionListener {
                     calcu.setNum1(Integer.parseInt(winCalcu.txtNumero1.getText()));
                     calcu.setNum2(Integer.parseInt(winCalcu.txtNumero2.getText()));
                     winCalcu.txtResultado.setText(String.valueOf(calcu.operacion(1)));
+                    winCalcu.lblSigno.setIcon(new ImageIcon("src/signos/sumar.png"));
+
                 } else {
                     if (e.getSource() == winCalcu.btnCalcular && winCalcu.cmbResta.isSelected()) {
                         calcu.setNum1(Integer.parseInt(winCalcu.txtNumero1.getText()));
                         calcu.setNum2(Integer.parseInt(winCalcu.txtNumero2.getText()));
                         winCalcu.txtResultado.setText(String.valueOf(calcu.operacion(2)));
+                        winCalcu.lblSigno.setIcon(new ImageIcon("src/signos/resta.png"));
                     } else {
                         if (e.getSource() == winCalcu.btnCalcular && winCalcu.cmbMultiplicar.isSelected()) {
-
+                            calcu.setNum1(Integer.parseInt(winCalcu.txtNumero1.getText()));
+                            calcu.setNum2(Integer.parseInt(winCalcu.txtNumero2.getText()));
+                            winCalcu.txtResultado.setText(String.valueOf(calcu.operacion(3)));
+                            winCalcu.lblSigno.setIcon(new ImageIcon("src/signos/multiplicar.png"));
                         } else {
                             if (e.getSource() == winCalcu.btnCalcular && winCalcu.cmbDivicion.isSelected()) {
-
+                                calcu.setNum1(Integer.parseInt(winCalcu.txtNumero1.getText()));
+                                calcu.setNum2(Integer.parseInt(winCalcu.txtNumero2.getText()));
+                                winCalcu.txtResultado.setText(String.valueOf(calcu.operacion(4)));
+                                winCalcu.lblSigno.setIcon(new ImageIcon("src/signos/dividir.png"));
                             }
                         }
                     }
@@ -64,5 +74,6 @@ public class calcuController implements ActionListener {
             JOptionPane.showMessageDialog(winCalcu, ex.getMessage());
         }
     }
+
 
 }

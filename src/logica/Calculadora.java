@@ -39,14 +39,16 @@ public class Calculadora {
     public void setNum2(int num2) {
         this.num2 = num2;
     }
-    
-       /**
-         * Realiza un metodo que recive por parametro la operacion a realizar
-         *
-         * @param opcion  1 para suma ,2 para resta, 3 para multiplicar ,4 para dividir
-         * @return el valor realizado con los 2 
-         * 
-         */
+
+    /**
+     * Realiza un metodo que recive por parametro la operacion a realizar
+     *
+     * @param opcion 1 para suma ,2 para resta, 3 para multiplicar ,4 para
+     * dividir
+     * @return el valor realizado con los 2
+     * @throws NumMenorException en caso que el num1 sea menor que el num2     *
+     *
+     */
     public float operacion(int opcion) throws NumMenorException {
         
         switch (opcion) {
