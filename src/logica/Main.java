@@ -18,7 +18,7 @@ public class Main {
      */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        
+        System.out.println("xd");
         System.out.print("Ingrese el primer num: ");
         int num1 = sc.nextInt();
         
